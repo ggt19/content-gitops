@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hello
+  name: qa-hello
   namespace: lasample
   labels:
-    app: hello
+    app: qa-hello
 spec:
   selector:
     matchLabels:
-      app: hello
+      app: qa-hello
   template:
     metadata:
       labels:
-        app: hello
+        app: qa-hello
     spec:
       containers:
-      - name: hello
-        image: acgtes/gitops:hellov1.9
+      - name: qa-hello
+        image: acgtes/gitops:qa-hellov1.9
