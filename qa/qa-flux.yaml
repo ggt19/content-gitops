@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: qa-hello
-        image: acgtes/gitops:qa-hellov1.15
+        image: acgtes/gitops:qa-hellov1.18
