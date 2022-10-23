@@ -16,4 +16,4 @@ spec:
     spec:
       containers:
       - name: qa-hello
-        image: gbalo/gitops:hellov1.6
+        image: gbalo/gitops:hellov1.7
